@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Documentaçaõ da GS</title>
+    <meta name="description" content="Apresentação da Solução da Global Solution">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS.css">
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "c0bd3138-012f-4b02-9a84-82e71b914dcb", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "8b627906-1dd4-42bc-936e-0f127bfb46a2", // The ID of your service instance.
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="/Imagens/Logo.png" alt="Logo anamnese">
+            <a href="#VANTAGENS">Vantagens</a>
+            <a href="#Funcionalidades">Funcionalidades</a>
+            <a href="">Nosso time</a>
+            <a href="#Chatbot">Chatbot</a>
+            <a href="#description">Descrições</a>
+        </nav>
+        <img class="logo" src="/Imagens/Hapvida.png" alt="Empresas">
+    </header>
+    <main>
+        <article>
+            <section class="inicio">
+                <video width="100%" height="100%" autoplay loop muted>
+                    <source src="/Imagens/Bem vindo ao.mp4" type="video/mp4">
+                </video>
+                <div class="Pai">
+                    <div class="filhos">
+                        <p>Aplicativo para agendamento de consultas, teleconsultas e Monitoramento de sintomas.</p>
+                        <img src="/Imagens/Logo das lojas.png">
+
+                    </div>
+            </section>
+
+            <section id="Funcionalidades">
+                <div class="Pai">
+                    <div class="imagem">
+                        <img src="/Imagens/Layout 2.png" alt="celular">
+                    </div>
+                    <div class="texto">
+                        <h2>NOSSO APLICATIVO CONTARÁ COM 4 FUNCIONALIDADES</h2>
+                        <p>Abaixo você poderá ver de forma breve cada uma das funcionalidades do aplicativo</p>
+                        <img src="/Imagens/Funcionalidades.png" alt="Funcionalidades">
+                    </div>
+                </div>
+            </section>
+            <section id="VANTAGENS" class="tres">
+                <h3>ALGUMAS VANTAGENS</h3>
+                <P>A seguir, serão apresentadas três vantagens que o nosso aplicativo oferecerá, gerando benefícios para
+                    os seus usuários.</P>
+                <img src="/Imagens/Vantagens.png" alt="Vantagens">
+            </section>
+            <section id="description" class="quarta">
+                <div class="Pai">
+                    <div class="funcao">
+                        <h4> Agendamento de consultas</h4>
+                        <p>Essa funcionalidade de agendamento de consultas funciona da seguinte maneira: o usuário
+                            insere suas informações pessoais, seleciona a especialidade desejada e a data e horário da
+                            consulta. O aplicativo verifica a disponibilidade de horários com os profissionais médicos e
+                            agenda a consulta, enviando uma confirmação ao usuário por meio de notificações no
+                            aplicativo e um e-mail. O aplicativo também oferece outras funcionalidades, como agendamento
+                            por telefone ou online, lembretes de consulta e opções de cancelamento</p>
+                    </div>
+                    <div class="agenda">
+                        <img src="/Imagens/Consulta.jpeg" alt="consulta">
+                    </div>
+                </div>
+            </section>
+            <section class="quarta">
+                <div class="Pai">
+                    <div class="funcao">
+                        <h4> Teleconsulta</h4>
+                        <p>Nosso aplicativo permite que os pacientes agendem consultas remotas com médicos. Ao preencher
+                            um formulário com o motivo da consulta e responder a uma série de perguntas inteligentes por
+                            triagem, o sistema utiliza um algoritmo para avaliar a priorização. Após o envio do
+                            formulário, os médicos recebem informações relevantes do paciente, categorizadas por nível
+                            de prioridade determinado pelo sistema. No entanto, os médicos utilizarão essas informações
+                            apenas para facilitar a revisão dos múltiplos detalhes do paciente, cabendo ao médico tomar
+                            a decisão final se o paciente deverá ser atendido imediatamente ou não.</p>
+                    </div>
+                    <div class="tele">
+                        <img class="tele" src="/Imagens/Teleconsulta.jpg" alt="consulta">
+                    </div>
+                </div>
+            </section>
+            <section class="quarta">
+                <div class="Pai">
+                    <div class="funcao">
+                        <h4>Monitoramento e registro de sintomas</h4>
+                        <p>O aplicativo permite que pacientes registrem seus sintomas diariamente, monitora suas
+                            informações e recomenda que procurem um médico em caso de anormalidades. As informações são
+                            enviadas em tempo real para o banco de dados do hospital, permitindo que os médicos
+                            acompanhem o estado de seus pacientes. O fluxo de eventos começa com o registro dos sintomas
+                            pelo paciente e termina com o envio das informações para o banco de dados do hospital</p>
+                    </div>
+                    <div class="tele">
+                        <img class="tele" src="/Imagens/Monitoramento de sintomas.jpg" consulta">
+                    </div>
+                </div>
+            </section>
+            <section id="Chatbot" class="quarta">
+                <div class="Pai">
+                    <div class="funcao">
+                        <h4>Chatbot</h4>
+                        <p>Um chatbot coleta informações médicas do paciente e permite que ele agende consultas médicas.
+                            Além disso, o chatbot avalia e monitora os sintomas do paciente e encaminha as informações
+                            para o hospital em tempo real. Esse sistema possui banco de dados de perguntas médicas,
+                            algoritmo de triagem e interface de usuário intuitiva. O paciente pode agendar consultas
+                            médicas, receber lembretes, cancelar e registrar sintomas diariamente. O chatbot recomenda
+                            que o paciente consulte um médico em caso de anormalidades ou agravamento dos sintomas,
+                            permitindo que os médicos acompanhem seus pacientes e tomem decisões informadas sobre o
+                            tratamento.</p>
+                    </div>
+                    <div class="tele">
+                        <img class="tele" src="/Imagens/Chatbot 2.png">
+                    </div>
+                </div>
+            </section>
+        </article>
+
+    </main>
+    <footer>
+        <section class="final">
+            <img src="/Imagens/Tempo acabou.png" alt="">
+        </section>
+    </footer>
+</body>
+
+</html>
+</body>
+</html>

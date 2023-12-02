@@ -1,0 +1,220 @@
+html, body, footer{
+    margin: 0%;
+
+}
+body{
+    background: linear-gradient(90deg, #000000, #3533CD);
+}
+
+nav {
+    background: linear-gradient(90deg, #000000, #3533CD);
+    font-size: 1.2em;
+    display: flex;
+}
+
+header {
+    background: linear-gradient(90deg, #000000, #3533CD);
+}
+
+nav a {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-left: 4%;
+    margin-top: 4%;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav img {
+    margin-top: 1.9%;
+    margin-left: 7%;
+    width: 18%;
+}
+
+article {
+    background-color: #000000;
+}
+
+.inicio p {
+    color: #21D4FD;
+    font-size: 2.5em;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 19.5%;
+    font-style: italic;
+    text-align: center;
+}
+
+.logo {
+    margin-left: 4.5%;
+    margin-top: 0.5%;
+    width: 20%;
+    padding-bottom: 1%;
+
+}
+
+.filhos img {
+    margin-left: 14%;
+    width: 40%;
+}
+
+.filho img {
+    width: 150%;
+    margin-left: -80%;
+    margin-top: 30%;
+}
+
+.Pai {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    padding: 1%;
+
+}
+
+.imagem img {
+    margin-top: 20%;
+    margin-left: 30%;
+    width: 60%;
+}
+
+.texto h2 {
+    font-style: italic;
+    font-weight: lighter;
+    color: white;
+    margin-left: 23%;
+    margin-top: 8%;
+    font-size: 3.8em;
+    width: 50%;
+    text-align: center;
+}
+
+.texto p {
+    color: #ED81ED;
+    font-size: 2.2em;
+    width: 45%;
+    margin-left: 25%;
+    margin-top: -1.6%;
+    font-style: italic;
+    text-align: center;
+}
+
+.texto img {
+    width: 70%;
+    margin-left: 13%;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: lighter;
+    color: #8C52FF;
+    margin-left: 37%;
+    margin-top: 3%;
+    font-size: 3.5em;
+}
+
+.tres p {
+    color: white;
+    font-size: 1.8em;
+    width: 45%;
+    margin-left: 29%;
+    margin-top: -1.6%;
+    font-style: italic;
+    text-align: center;
+}
+
+.tres img {
+    margin-left: 22%;
+    margin-top: 2%;
+}
+
+.tres {
+    background-color: #000000;
+}
+
+.quarta {
+    background-color: #000000;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: #ED81ED;
+    margin-left: 22%;
+    margin-top: 10%;
+    font-size: 3.0em;
+    width: 30%;
+    text-align: center;
+}
+
+.quarta p {
+    color: white;
+    font-size: 1.8em;
+    width: 45%;
+    margin-left: 15%;
+    margin-top: -1.6%;
+    font-style: italic;
+    text-align: justify;
+}
+
+.inicio {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* ou a altura que você desejar */
+    overflow: hidden;
+}
+
+.agenda img{
+    margin-top: 200%;
+    width: 700%;
+    margin-left: -750%;
+}
+
+.tele{
+    margin-top: 8%;
+    width: 100%;
+    margin-left: -20%;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.consulta {
+    position: absolute;
+    top: 0;
+    left: 40;
+    width: 40%;
+    object-fit: cover;
+    margin-left: 30%;
+}
+
+.Pai {
+    position: relative;
+    z-index: 2;
+}
+
+.final{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+footer{
+    background: linear-gradient(90deg, #000000, #3533CD);
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
